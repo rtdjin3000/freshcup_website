@@ -9,15 +9,14 @@ export default function Footer() {
     <footer className="mt-20 bg-brand-greenDark text-brand-cream">
       <div className="container-x grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-1">
-          <div className="flex items-center gap-3">
+          <div className="inline-flex rounded-xl bg-white px-3 py-2">
             <Image
-              src="/images/logo.png"
-              alt="Fresh Cup logo"
-              width={56}
-              height={56}
-              className="h-14 w-14 rounded-full bg-white p-0.5"
+              src="/images/logo-horizontal.png"
+              alt="Fresh Cup Bubble Tea & Café"
+              width={832}
+              height={240}
+              className="h-10 w-auto"
             />
-            <span className="font-display text-2xl font-semibold">Fresh Cup</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-brand-cream/75">
             {restaurant.tagline}. Freshly made in {restaurant.city}.

@@ -39,18 +39,15 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-x flex h-16 items-center justify-between md:h-20">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center" aria-label="Fresh Cup Bubble Tea & Café home">
           <Image
-            src="/images/logo.png"
-            alt="Fresh Cup Bubble Tea & Café logo"
-            width={56}
-            height={56}
-            className="h-11 w-11 rounded-full ring-1 ring-brand-green/15 md:h-14 md:w-14"
+            src="/images/logo-horizontal.png"
+            alt="Fresh Cup Bubble Tea & Café"
+            width={832}
+            height={240}
+            className="h-9 w-auto md:h-11"
             priority
           />
-          <span className="hidden font-display text-xl font-semibold text-brand-greenDark sm:block">
-            Fresh Cup
-          </span>
         </Link>
 
         <ul className="hidden items-center gap-1 md:flex">
