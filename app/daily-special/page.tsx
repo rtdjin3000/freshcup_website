@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/daily-special" },
 };
 
-const siteUrl = "https://freshcupbubbletea.ca";
+const siteUrl = "https://fresh-cup.com";
 
 export default function DailySpecialPage() {
   const special = restaurant.dailySpecial;
@@ -28,28 +28,42 @@ export default function DailySpecialPage() {
     return null;
   }
 
-  const offerSchema = {
+  const imageUrl = `${siteUrl}${encodeURI(special.image)}`;
+  // Recommended by Google: keep priceValidUntil in the future to avoid stale offers.
+  const priceValidUntil = `${new Date().getFullYear() + 1}-12-31`;
+
+  const productSchema = {
     "@context": "https://schema.org",
-    "@type": "OfferCatalog",
-    name: `${restaurant.fullName} Daily Specials`,
-    url: `${siteUrl}/daily-special`,
-    itemListElement: special.schedule.map((entry) => ({
-      "@type": "Offer",
-      name: `${entry.day} Daily Special — ${entry.item}`,
-      price: "5.00",
-      priceCurrency: "CAD",
-      availability: "https://schema.org/InStock",
-      eligibleQuantity: {
-        "@type": "QuantitativeValue",
-        value: 1,
-        unitText: "regular size",
-      },
-      description: `${entry.item}. ${special.validFor}.`,
-      seller: {
-        "@type": "Restaurant",
+    "@graph": special.schedule.map((entry) => ({
+      "@type": "Product",
+      name: `${entry.item} — ${entry.day} Daily Special`,
+      image: imageUrl,
+      description: `${entry.day}'s Fresh Cup daily special: ${entry.item} for ${special.priceDisplay}. ${special.validFor}.`,
+      category: "Bubble Tea",
+      brand: {
+        "@type": "Brand",
         name: restaurant.fullName,
       },
-      url: `${siteUrl}/daily-special`,
+      offers: {
+        "@type": "Offer",
+        price: "5.00",
+        priceCurrency: "CAD",
+        priceValidUntil,
+        availability: "https://schema.org/InStock",
+        url: `${siteUrl}/daily-special`,
+        seller: {
+          "@type": "Restaurant",
+          name: restaurant.fullName,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: restaurant.address,
+            addressLocality: restaurant.city,
+            addressRegion: restaurant.region,
+            postalCode: restaurant.postalCode,
+            addressCountry: "CA",
+          },
+        },
+      },
     })),
   };
 
@@ -57,7 +71,7 @@ export default function DailySpecialPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(offerSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
 
       <PageHeader
