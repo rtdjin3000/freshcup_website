@@ -46,6 +46,13 @@ export default function Hero() {
           <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-brand-greenDark/75 md:mx-0">
             {restaurant.shortDesc}
           </p>
+          <p className="mt-3 text-sm text-brand-greenDark/70 md:text-left text-center">
+            Looking for bubble tea in Don Mills?{" "}
+            <Link href="/bubble-tea-in-don-mills" className="font-semibold text-brand-green underline-offset-2 hover:underline">
+              See why locals choose Fresh Cup
+            </Link>
+            .
+          </p>
 
           <div className="mt-10 flex flex-col items-center gap-3 md:flex-row md:items-start">
             <Link

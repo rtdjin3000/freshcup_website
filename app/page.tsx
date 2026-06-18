@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import FeaturedDrinks from "@/components/FeaturedDrinks";
 import CategoryStrip from "@/components/CategoryStrip";
+import LocalSearchLinks from "@/components/LocalSearchLinks";
 import KidsFavorites from "@/components/KidsFavorites";
 import GoogleTestimonials from "@/components/GoogleTestimonials";
 import PremiumShowcase from "@/components/PremiumShowcase";
@@ -15,6 +16,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <LocalSearchLinks />
       <Highlights />
       <FeaturedDrinks />
       <CategoryStrip />

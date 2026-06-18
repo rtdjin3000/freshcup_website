@@ -20,23 +20,26 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
-const siteUrl = "https://freshcupbubbletea.ca";
+const siteUrl = "https://fresh-cup.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Fresh Cup Bubble Tea & Café | Boba, Fresh Juice, Smoothies & Coffee in Don Mills, North York",
+      "Fresh Cup Bubble Tea & Café | Bubble Tea in Don Mills, North York",
     template: "%s | Fresh Cup Bubble Tea & Café",
   },
   description:
-    "🧋 Fresh Cup Bubble Tea & Café in Don Mills, North York for premium bubble tea, fresh-pressed juices, real fruit smoothies, espresso, brewed coffee, lattes, cappuccinos, bubble waffles, fluffy pancakes and desserts. Visit us at Peanut Plaza.",
+    "Bubble tea in Don Mills, North York. Fresh Cup serves hand-shaken boba, real fruit smoothies, fresh-pressed juices, coffee, bubble waffles, and desserts at Peanut Plaza.",
   keywords: [
     // Core product
     "bubble tea North York",
     "boba North York",
     "boba tea Don Mills",
     "bubble tea Don Mills",
+    "bubble tea in Don Mills",
+    "best bubble tea in Don Mills",
+    "Don Mills bubble tea shop",
     "milk tea North York",
     "fresh bubble tea",
     "best bubble tea Don Mills",
@@ -157,7 +160,7 @@ export const metadata: Metadata = {
 function StructuredData() {
   const mainSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "CafeOrCoffeeShop",
     "@id": `${siteUrl}#restaurant`,
     name: restaurant.fullName,
     description: "Bubble tea cafe and coffee spot in Don Mills, North York serving boba, fresh-pressed juices, real fruit smoothies, espresso drinks, brewed coffee, lattes, cappuccinos, bubble waffles, fluffy pancakes and desserts.",
@@ -193,6 +196,16 @@ function StructuredData() {
       closes: to24(h.close),
     })),
     hasMenu: `${siteUrl}/menu`,
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Don Mills",
+      },
+      {
+        "@type": "City",
+        name: "North York",
+      },
+    ],
     ...(restaurant.dailySpecial?.active
       ? {
           hasOfferCatalog: {

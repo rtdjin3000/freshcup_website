@@ -39,6 +39,9 @@ export default function Footer() {
           <h3 className="font-display text-lg font-semibold">Explore</h3>
           <ul className="mt-4 space-y-2 text-sm text-brand-cream/75">
             <li><Link href="/menu" className="hover:text-white">Menu</Link></li>
+            <li><Link href="/bubble-tea-in-don-mills" className="hover:text-white">Bubble Tea in Don Mills</Link></li>
+            <li><Link href="/bubble-tea-near-fairview-mall" className="hover:text-white">Near Fairview Mall</Link></li>
+            <li><Link href="/boba-peanut-plaza" className="hover:text-white">Boba in Peanut Plaza</Link></li>
             <li><Link href="/about" className="hover:text-white">About Us</Link></li>
             <li><Link href="/gallery" className="hover:text-white">Gallery</Link></li>
             <li><Link href="/contact" className="hover:text-white">Find Us</Link></li>

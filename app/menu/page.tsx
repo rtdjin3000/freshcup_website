@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description:
     "🧋 Fresh Cup menu in Don Mills: 50+ bubble tea flavours, milk tea, fruit tea, real fruit smoothies, 100% fresh juice, espresso, brewed coffee, lattes, cappuccinos, bubble waffles, fluffy pancakes, desserts and snacks. Fully customizable — order online or visit North York.",
   keywords: [
+    "bubble tea in Don Mills",
+    "best bubble tea in Don Mills",
+    "Don Mills boba menu",
     "bubble tea menu",
     "bubble tea flavours Don Mills",
     "milk tea menu North York",

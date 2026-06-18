@@ -1,9 +1,20 @@
 import type { MetadataRoute } from "next";
 
-const base = "https://freshcupbubbletea.ca";
+const base = "https://fresh-cup.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/menu", "/daily-special", "/about", "/gallery", "/contact"];
+  const routes = [
+    "",
+    "/bubble-tea-in-don-mills",
+    "/bubble-tea-near-fairview-mall",
+    "/boba-peanut-plaza",
+    "/bubble-tea-north-york",
+    "/menu",
+    "/daily-special",
+    "/about",
+    "/gallery",
+    "/contact",
+  ];
   return routes.map((r) => ({
     url: `${base}${r}`,
     lastModified: new Date(),
