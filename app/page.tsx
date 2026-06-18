@@ -10,6 +10,7 @@ import RecentlyAdded from "@/components/RecentlyAdded";
 import DailySpecialPromo from "@/components/DailySpecialPromo";
 import CateringPromo from "@/components/CateringPromo";
 import AboutPreview from "@/components/AboutPreview";
+import ReviewCTA from "@/components/ReviewCTA";
 import OrderCTA from "@/components/OrderCTA";
 
 export default function HomePage() {
@@ -27,6 +28,7 @@ export default function HomePage() {
       <RecentlyAdded />
       <CateringPromo />
       <AboutPreview />
+      <ReviewCTA />
       <OrderCTA />
     </>
   );

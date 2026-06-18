@@ -20,6 +20,13 @@ export const restaurant = {
   mapsUrl: "https://maps.google.com/?q=Fresh+Cup+Bubble+Tea,+3046+Don+Mills+Rd,+North+York,+ON+M2J+3C1",
   mapsEmbed:
     "https://www.google.com/maps?q=3046+Don+Mills+Rd,+North+York,+ON+M2J+3C1&output=embed",
+  // One-tap "Write a review" link.
+  // UPGRADE (recommended): open Google Business Profile → "Ask for reviews",
+  // copy the short link (looks like https://g.page/r/XXXX/review) and paste it
+  // into `reviewUrl` below, then run `npm run review-qr` to regenerate the QR code.
+  // The default below reliably opens the Fresh Cup listing where customers tap "Write a review".
+  reviewUrl:
+    "https://www.google.com/search?q=Fresh+Cup+Bubble+Tea+%26+Caf%C3%A9+3046+Don+Mills+Rd+North+York+reviews",
   ordering: {
     uberEats:
       "https://www.ubereats.com/ca/store/fresh-cup/AkTM4CFtTY6bIWv5hngbKg",

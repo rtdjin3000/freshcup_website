@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MapPin, Clock, Star } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import OrderButtons from "@/components/OrderButtons";
+import ReviewCTA from "@/components/ReviewCTA";
 import { restaurant } from "@/data/restaurant";
 
 const pagePath = "/bubble-tea-in-don-mills";
@@ -211,6 +212,8 @@ export default function BubbleTeaInDonMillsPage() {
           </Link>
         </div>
       </section>
+
+      <ReviewCTA />
     </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { MapPin, Phone, Clock, Navigation } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import OrderButtons from "@/components/OrderButtons";
+import ReviewCTA from "@/components/ReviewCTA";
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
@@ -128,6 +129,8 @@ export default function ContactPage() {
           />
         </div>
       </section>
+
+      <ReviewCTA />
     </>
   );
 }
