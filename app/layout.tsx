@@ -225,7 +225,9 @@ function StructuredData() {
         }
       : {}),
     sameAs: [
-      "https://www.instagram.com/",
+      "https://www.instagram.com/freshcup.ontario/",
+      "https://www.facebook.com/p/Fresh-Cup-61567289606413/",
+      "https://www.tiktok.com/@fresh.cup2",
       "https://www.ubereats.com/ca/store/fresh-cup/AkTM4CFtTY6bIWv5hngbKg",
       "https://www.skipthedishes.com/fresh-cup-bubble-tea",
       "https://www.doordash.com/store/fresh-cup-north-york-32103931/52514548/?event_type=autocomplete&pickup=false",

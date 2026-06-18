@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Phone, Clock, Instagram } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react";
 import { restaurant } from "@/data/restaurant";
 import OrderButtons from "./OrderButtons";
 
@@ -22,7 +22,7 @@ export default function Footer() {
           <p className="mt-4 text-sm leading-relaxed text-brand-cream/75">
             {restaurant.tagline}. Freshly made in {restaurant.city}.
           </p>
-          <div className="mt-5">
+          <div className="mt-5 flex items-center gap-3">
             <a
               href={restaurant.social.instagram}
               target="_blank"
@@ -31,6 +31,26 @@ export default function Footer() {
               className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-white/20"
             >
               <Instagram className="h-5 w-5" />
+            </a>
+            <a
+              href={restaurant.social.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-white/20"
+            >
+              <Facebook className="h-5 w-5" />
+            </a>
+            <a
+              href={restaurant.social.tiktok}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-white/20"
+            >
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
+                <path d="M16.5 3a4.98 4.98 0 0 0 4 4.62v3.06a8.02 8.02 0 0 1-4-1.08v5.9a6.4 6.4 0 1 1-6.4-6.4c.22 0 .43.01.64.04v3.13a3.34 3.34 0 1 0 2.36 3.2V3h3.4Z" />
+              </svg>
             </a>
           </div>
         </div>

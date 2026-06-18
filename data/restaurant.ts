@@ -37,7 +37,9 @@ export const restaurant = {
       "https://www.fantuanorder.com/en-US/store/Restaurant/ca-31324?rTraceId=s-1-1-2067298929082449931",
   },
   social: {
-    instagram: "https://www.instagram.com/",
+    instagram: "https://www.instagram.com/freshcup.ontario/",
+    facebook: "https://www.facebook.com/p/Fresh-Cup-61567289606413/",
+    tiktok: "https://www.tiktok.com/@fresh.cup2",
   },
   // Seasonal hook — set active:false to remove the World Cup promo everywhere when it ends.
   worldCup: {
