@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fffaf3;
+  color: #1f2421;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold transition-all duration-200 active:scale-[0.96] md:text-base;
+  }
+
+  /* Mobile-optimized larger buttons */
+  .btn-mobile-lg {
+    @apply btn px-6 py-4 text-base font-bold md:px-8 md:py-3 md:text-lg min-h-[56px];
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-brand-green to-brand-greenLight text-white shadow-lg shadow-brand-green/30 hover:shadow-xl hover:shadow-brand-green/40 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-brand-green bg-white/80 text-brand-green backdrop-blur-sm hover:bg-brand-mint hover:border-brand-greenDark;
+  }
+
+  .btn-pink {
+    @apply btn bg-gradient-to-r from-brand-pink to-brand-peach text-white shadow-lg shadow-brand-pink/30 hover:shadow-xl hover:shadow-brand-pink/40 hover:-translate-y-0.5;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-white/60 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-brand-green ring-1 ring-brand-green/20 backdrop-blur-sm;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white/80 backdrop-blur-sm shadow-[0_10px_40px_-15px_rgba(15,122,52,0.2)] ring-1 ring-white/50 transition-all hover:shadow-[0_20px_60px_-15px_rgba(15,122,52,0.3)] hover:-translate-y-1;
+  }
+
+  .section-title {
+    @apply font-display text-4xl font-bold leading-tight text-brand-greenDark sm:text-5xl md:text-6xl;
+  }
+
+  /* Premium gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-green via-brand-greenLight to-brand-green bg-clip-text text-transparent;
+  }
+
+  /* Floating animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Slide in animation */
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .slide-in {
+    animation: slide-in 0.5s ease-out;
+  }
+
+  /* Glow effect */
+  .glow-green {
+    @apply shadow-lg shadow-brand-green/20;
+  }
+
+  .glow-pink {
+    @apply shadow-lg shadow-brand-pink/20;
+  }
+}
+
+/* Hide scrollbar for flavour pill rows */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

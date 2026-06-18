@@ -1,0 +1,31 @@
+import Hero from "@/components/Hero";
+import Highlights from "@/components/Highlights";
+import FeaturedDrinks from "@/components/FeaturedDrinks";
+import CategoryStrip from "@/components/CategoryStrip";
+import KidsFavorites from "@/components/KidsFavorites";
+import GoogleTestimonials from "@/components/GoogleTestimonials";
+import PremiumShowcase from "@/components/PremiumShowcase";
+import RecentlyAdded from "@/components/RecentlyAdded";
+import DailySpecialPromo from "@/components/DailySpecialPromo";
+import CateringPromo from "@/components/CateringPromo";
+import AboutPreview from "@/components/AboutPreview";
+import OrderCTA from "@/components/OrderCTA";
+
+export default function HomePage() {
+  return (
+    <>
+      <Hero />
+      <Highlights />
+      <FeaturedDrinks />
+      <CategoryStrip />
+      <KidsFavorites />
+      <GoogleTestimonials />
+      <PremiumShowcase />
+      <DailySpecialPromo />
+      <RecentlyAdded />
+      <CateringPromo />
+      <AboutPreview />
+      <OrderCTA />
+    </>
+  );
+}
