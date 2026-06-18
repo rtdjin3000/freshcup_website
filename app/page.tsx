@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import WorldCupPromo from "@/components/WorldCupPromo";
 import Highlights from "@/components/Highlights";
 import FeaturedDrinks from "@/components/FeaturedDrinks";
 import CategoryStrip from "@/components/CategoryStrip";
@@ -17,6 +18,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <WorldCupPromo />
       <LocalSearchLinks />
       <Highlights />
       <FeaturedDrinks />

@@ -14,14 +14,21 @@ export default function AnnouncementBar() {
   const [i, setI] = useState(0);
 
   const messages = useMemo(() => {
-    if (!restaurant.dailySpecial?.active) {
-      return baseMessages;
+    const msgs = [...baseMessages];
+
+    if (restaurant.worldCup?.active) {
+      msgs.unshift(
+        `⚽ World Cup 2026 Watch Party — ${restaurant.worldCup.offer} ${restaurant.worldCup.offerItems} during all game hours!`
+      );
     }
 
-    return [
-      ...baseMessages,
-      `⭐ Daily Special ${restaurant.dailySpecial.priceDisplay} — regular size drinks (no toppings)`,
-    ];
+    if (restaurant.dailySpecial?.active) {
+      msgs.push(
+        `⭐ Daily Special ${restaurant.dailySpecial.priceDisplay} — regular size drinks (no toppings)`
+      );
+    }
+
+    return msgs;
   }, []);
 
   useEffect(() => {

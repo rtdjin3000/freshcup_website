@@ -39,6 +39,20 @@ export const restaurant = {
   social: {
     instagram: "https://www.instagram.com/",
   },
+  // Seasonal hook — set active:false to remove the World Cup promo everywhere when it ends.
+  worldCup: {
+    active: true,
+    eyebrow: "World Cup 2026 Watch Party",
+    headline: "Catch every game at Fresh Cup",
+    offer: "20% OFF",
+    offerItems: "all bubble tea, snacks & desserts",
+    timing: "during all World Cup game hours",
+    fineprint: "Valid on regular priced items. In-store only. Excludes other promos.",
+    image: "/images/world-cup-offer.jpg",
+    // FIFA World Cup 2026: June 11 – July 19, 2026.
+    startDate: "2026-06-11",
+    endDate: "2026-07-19",
+  },
   dailySpecial: {
     active: true,
     title: "Daily Specials",
