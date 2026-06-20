@@ -9,7 +9,7 @@ export default function CategoryStrip() {
         <span className="eyebrow">Explore the menu</span>
         <h2 className="section-title mt-2\">Something for every craving</h2>
         <p className="mx-auto mt-1 max-w-xl text-brand-greenDark/70\">
-          From classic milk teas to fresh-pressed juices and icy slushes — tap a category to dive in.
+          From classic milk teas to fresh-pressed juices and icy slushes. Tap a category to dive in.
         </p>
       </div>
 

@@ -5,7 +5,7 @@ import PageHeader from "@/components/PageHeader";
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
-  title: "Leave Fresh Cup a Review — Rate Us on Google | Bubble Tea in Don Mills",
+  title: "Leave Fresh Cup a Review: Rate Us on Google | Bubble Tea in Don Mills",
   description:
     "Loved your visit to Fresh Cup Bubble Tea & Café in Don Mills? Tap the button or scan the QR code to leave a quick Google review. Thank you for supporting our local team!",
   keywords: [
@@ -24,7 +24,7 @@ export default function ReviewPage() {
       <PageHeader
         eyebrow="Thank you"
         title="Leave us a review"
-        subtitle="Your feedback helps more Don Mills neighbours discover Fresh Cup — and it only takes 30 seconds."
+        subtitle="Your feedback helps more Don Mills neighbours discover Fresh Cup, and it only takes 30 seconds."
       />
 
       <section className="container-x py-12 md:py-16">
@@ -40,8 +40,8 @@ export default function ReviewPage() {
               Review us on Google
             </h2>
             <p className="mx-auto mt-3 max-w-md text-brand-greenDark/70">
-              Rated {restaurant.rating}★ by {restaurant.reviewCount}+ guests. One tap opens Google —
-              choose your stars, add a line about your favourite drink, and you&apos;re done.
+              Rated {restaurant.rating}★ by {restaurant.reviewCount}+ guests. One tap opens Google.
+              Choose your stars, add a line about your favourite drink, and you&apos;re done.
             </p>
             <div className="mt-6 flex flex-1 flex-col justify-end">
               <a
@@ -53,7 +53,7 @@ export default function ReviewPage() {
                 <Smartphone className="h-5 w-5" /> Tap to leave a review
               </a>
               <p className="mt-3 text-xs text-brand-greenDark/50">
-                Opens Google in a new tab — no app required.
+                Opens Google in a new tab. No app required.
               </p>
             </div>
           </div>

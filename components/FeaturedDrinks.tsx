@@ -13,7 +13,7 @@ type Featured = {
 const featured: Featured[] = [
   {
     name: "Taro Milk Tea",
-    desc: "Creamy, nutty and naturally sweet — a fan favourite.",
+    desc: "Creamy, nutty and naturally sweet, a fan favourite.",
     price: "from $5.99",
     image: "/images/taro-milk-tea.jpg",
     tag: "Bestseller",
@@ -33,7 +33,7 @@ const featured: Featured[] = [
   },
   {
     name: "Real Mango Smoothie",
-    desc: "Pure mango blended smooth and creamy — real fruit only.",
+    desc: "Pure mango blended smooth and creamy, real fruit only.",
     price: "from $6.99",
     image: "/images/Real Mango Smoothie.jpg",
     tag: "New",

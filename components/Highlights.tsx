@@ -4,7 +4,7 @@ const items = [
   {
     icon: Leaf,
     title: "100% Real Fruit",
-    desc: "Juices & smoothies pressed and blended from real, fresh fruit — never syrups.",
+    desc: "Juices & smoothies pressed and blended from real, fresh fruit, never syrups.",
   },
   {
     icon: SlidersHorizontal,

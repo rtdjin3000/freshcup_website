@@ -3,7 +3,7 @@ export const restaurant = {
   fullName: "Fresh Cup Bubble Tea & Café",
   tagline: "Bubble Tea · Fresh Juices · Smoothies · Coffee",
   shortDesc:
-    "Hand-shaken bubble tea, 100% fresh-pressed juices, real fruit smoothies, espresso drinks, brewed coffee, bubble waffles, fluffy pancakes and sweet treats — made fresh to order in North York.",
+    "Hand-shaken bubble tea, 100% fresh-pressed juices, real fruit smoothies, espresso drinks, brewed coffee, bubble waffles, fluffy pancakes and sweet treats, made fresh to order in North York.",
   phoneDisplay: "(647) 518-0951",
   phone: "+16475180951",
   address: "3046 Don Mills Rd.",

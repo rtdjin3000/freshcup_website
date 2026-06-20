@@ -6,7 +6,7 @@ import PageHeader from "@/components/PageHeader";
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
-  title: "About Fresh Cup — Premium Bubble Tea Café in Don Mills, North York",
+  title: "About Fresh Cup: Premium Bubble Tea Café in Don Mills, North York",
   description:
     "🧋 Discover Fresh Cup in Don Mills, North York: a bubble tea café serving hand-shaken boba, fresh-pressed juices, real fruit smoothies, espresso, brewed coffee, lattes, cappuccinos, bubble waffles and fluffy pancakes.",
   keywords: [
@@ -37,7 +37,7 @@ const values = [
   {
     icon: Heart,
     title: "Neighbourhood love",
-    desc: "We're proud to be a local favourite — a friendly spot to relax, study or grab a treat.",
+    desc: "We're proud to be a local favourite, a friendly spot to relax, study or grab a treat.",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
           </p>
           <p className="mt-4 text-brand-greenDark/75">
             We&apos;re more than just drinks. Bubble waffles, fluffy pancakes, scooped ice cream and
-            savoury snacks round out a menu that has something for everyone — whether you&apos;re here
+            savoury snacks round out a menu that has something for everyone, whether you&apos;re here
             for a quick refresher or a sweet hangout with friends.
           </p>
           <p className="mt-4 text-brand-greenDark/75">

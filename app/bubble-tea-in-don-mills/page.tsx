@@ -13,7 +13,7 @@ const pageUrl = `${siteUrl}${pagePath}`;
 export const metadata: Metadata = {
   title: "Best Bubble Tea in Don Mills, North York",
   description:
-    "Looking for bubble tea in Don Mills? Fresh Cup in Peanut Plaza (3046 Don Mills Rd) serves hand-shaken boba, milk tea, fruit tea, smoothies, fresh juice, and bubble waffles — made to order with brown sugar tapioca, popping pearls and jelly.",
+    "Looking for bubble tea in Don Mills? Fresh Cup in Peanut Plaza (3046 Don Mills Rd) serves hand-shaken boba, milk tea, fruit tea, smoothies, fresh juice, and bubble waffles, made to order with brown sugar tapioca, popping pearls and jelly.",
   keywords: [
     "bubble tea in Don Mills",
     "best bubble tea in Don Mills",
@@ -48,7 +48,7 @@ const faq = [
   },
   {
     q: "Do you have daily specials?",
-    a: "Yes. Fresh Cup offers rotating daily drink specials at $5 for a regular size with no toppings — Green Apple Milk Tea on Monday, Oreo Latte on Tuesday, Brown Sugar Milk Tea on Wednesday, and more. Visit our Daily Special page to see the full week.",
+    a: "Yes. Fresh Cup offers rotating daily drink specials at $5 for a regular size with no toppings: Green Apple Milk Tea on Monday, Oreo Latte on Tuesday, Brown Sugar Milk Tea on Wednesday, and more. Visit our Daily Special page to see the full week.",
   },
   {
     q: "What toppings can I add to my bubble tea?",
@@ -56,7 +56,7 @@ const faq = [
   },
   {
     q: "What's the difference between milk tea and fruit tea?",
-    a: "Milk tea is creamy and rich — great with brown sugar tapioca for the classic boba experience. Fruit tea is lighter and refreshing, brewed with real fruit and perfect with popping pearls or jelly. You choose the sugar and ice level on both.",
+    a: "Milk tea is creamy and rich, great with brown sugar tapioca for the classic boba experience. Fruit tea is lighter and refreshing, brewed with real fruit and perfect with popping pearls or jelly. You choose the sugar and ice level on both.",
   },
   {
     q: "Is Fresh Cup close to Fairview Mall and Henry Farm?",
@@ -64,7 +64,7 @@ const faq = [
   },
   {
     q: "Do you have non-tea drinks?",
-    a: "Plenty. Alongside bubble tea we make real-fruit smoothies, 100% fresh-pressed juices, espresso drinks, brewed coffee and matcha — plus bubble waffles, pancakes and sweet treats.",
+    a: "Plenty. Alongside bubble tea we make real-fruit smoothies, 100% fresh-pressed juices, espresso drinks, brewed coffee and matcha, plus bubble waffles, pancakes and sweet treats.",
   },
 ];
 
@@ -173,14 +173,14 @@ export default function BubbleTeaInDonMillsPage() {
           Bubble tea near you in Don Mills &amp; North York
         </h2>
         <p className="mt-4 max-w-3xl text-brand-greenDark/75">
-          Fresh Cup sits in Peanut Plaza on Don Mills Rd near Sheppard — easy to reach from across east
+          Fresh Cup sits in Peanut Plaza on Don Mills Rd near Sheppard, easy to reach from across east
           North York. Whether you&apos;re shopping at Fairview Mall, heading home to Henry Farm or Parkway
           Forest, or grabbing a treat after an appointment at North York General, we&apos;re a quick stop
           with parking right outside the door.
         </p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            { name: "Peanut Plaza", note: "We're right here — walk in for pickup." },
+            { name: "Peanut Plaza", note: "We're right here. Walk in for pickup." },
             { name: "Fairview Mall", note: "Minutes away near Don Mills & Sheppard." },
             { name: "Henry Farm", note: "A short drive for your daily boba." },
             { name: "Parkway Forest", note: "Quick delivery across the neighbourhood." },
@@ -203,14 +203,14 @@ export default function BubbleTeaInDonMillsPage() {
             Popular orders &amp; how to build yours
           </h2>
           <p className="mt-4 max-w-3xl text-brand-greenDark/75">
-            New to boba or just deciding? Here&apos;s what Don Mills regulars order most — and how to make it
+            New to boba or just deciding? Here&apos;s what Don Mills regulars order most, and how to make it
             yours. Every drink lets you pick your sugar and ice level, then load it up with toppings.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <div className="rounded-2xl bg-brand-mint/30 p-5 ring-1 ring-black/5">
               <p className="font-semibold text-brand-greenDark">Brown Sugar Milk Tea + brown sugar tapioca</p>
               <p className="mt-2 text-sm text-brand-greenDark/75">
-                The classic boba experience — warm caramelised brown sugar with chewy pearls. Our top pick for
+                The classic boba experience: warm caramelised brown sugar with chewy pearls. Our top pick for
                 first-timers.
               </p>
             </div>

@@ -70,7 +70,7 @@ const RecentlyAdded = () => {
             Recently Added ✨
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Discover our latest menu additions — premium coffee varieties, luxurious matcha options, and artisan foam toppings.
+            Discover our latest menu additions: premium coffee varieties, luxurious matcha options, and artisan foam toppings.
           </p>
         </div>
 

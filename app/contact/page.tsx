@@ -6,7 +6,7 @@ import ReviewCTA from "@/components/ReviewCTA";
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
-  title: "Visit Fresh Cup — Bubble Tea Café Location & Hours in Don Mills | North York",
+  title: "Visit Fresh Cup: Bubble Tea Café Location & Hours in Don Mills | North York",
   description: `📍 Fresh Cup bubble tea and coffee café is located at ${restaurant.address}, Peanut Plaza. Hours: Mon-Fri 3-9PM, Sat-Sun 11-9PM. Call (647) 518-0951 or order online via Uber Eats, SkipTheDishes, DoorDash, or Fantuan.`,
   keywords: [
     "Fresh Cup address",

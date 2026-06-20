@@ -16,9 +16,9 @@ import {
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
-  title: "Full Menu — Bubble Tea, Fresh Juice, Smoothies & Coffee in Don Mills | Fresh Cup",
+  title: "Full Menu: Bubble Tea, Fresh Juice, Smoothies & Coffee in Don Mills | Fresh Cup",
   description:
-    "🧋 Fresh Cup menu in Don Mills: 50+ bubble tea flavours, milk tea, fruit tea, real fruit smoothies, 100% fresh juice, espresso, brewed coffee, lattes, cappuccinos, bubble waffles, fluffy pancakes, desserts and snacks. Fully customizable — order online or visit North York.",
+    "🧋 Fresh Cup menu in Don Mills: 50+ bubble tea flavours, milk tea, fruit tea, real fruit smoothies, 100% fresh juice, espresso, brewed coffee, lattes, cappuccinos, bubble waffles, fluffy pancakes, desserts and snacks. Fully customizable. Order online or visit North York.",
   keywords: [
     "bubble tea in Don Mills",
     "best bubble tea in Don Mills",
@@ -53,7 +53,7 @@ export default function MenuPage() {
       <PageHeader
         eyebrow="Our menu"
         title="The full lineup"
-        subtitle="50+ flavours across teas, juices, smoothies and treats. Every drink is customisable — choose your sugar, ice and toppings."
+        subtitle="50+ flavours across teas, juices, smoothies and treats. Every drink is customisable. Choose your sugar, ice and toppings."
       />
 
       {restaurant.dailySpecial?.active && (
@@ -64,7 +64,7 @@ export default function MenuPage() {
             </p>
             <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-lg font-semibold">
-                Daily Specials {restaurant.dailySpecial.priceDisplay} — {restaurant.dailySpecial.validFor}
+                Daily Specials {restaurant.dailySpecial.priceDisplay}: {restaurant.dailySpecial.validFor}
               </p>
               <a
                 href="/daily-special"
@@ -254,7 +254,7 @@ export default function MenuPage() {
       <section className="container-x pb-20">
         <div className="rounded-3xl bg-brand-green px-6 py-10 text-center text-white">
           <h2 className="font-display text-2xl font-semibold sm:text-3xl">Ready to order?</h2>
-          <p className="mt-2 text-brand-cream/85">Pickup or delivery — get your Fresh Cup fix now.</p>
+          <p className="mt-2 text-brand-cream/85">Pickup or delivery. Get your Fresh Cup fix now.</p>
           <div className="mt-6 flex justify-center">
             <OrderButtons />
           </div>

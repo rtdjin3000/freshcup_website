@@ -61,7 +61,7 @@ export default function WorldCupPromo() {
             <p className="mt-4 max-w-xl text-lg text-brand-cream/90">
               Your Don Mills fandom HQ. Get{" "}
               <span className="font-bold text-brand-peach">{wc.offer}</span> {wc.offerItems}{" "}
-              {wc.timing} — cheer on your team with a fresh cup in hand.
+              {wc.timing}. Cheer on your team with a fresh cup in hand.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm">

@@ -28,7 +28,7 @@ export default function ReviewCTA({
           Enjoyed your visit?
         </h2>
         <p className="mx-auto mt-2 max-w-md text-sm text-brand-greenDark/70">
-          A 30-second Google review helps your neighbours find us — and means the world to our small team.
+          A 30-second Google review helps your neighbours find us, and means the world to our small team.
         </p>
         <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
@@ -58,8 +58,8 @@ export default function ReviewCTA({
             Loved your Fresh Cup?
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-brand-greenDark/70">
-            Rated {restaurant.rating}★ by {restaurant.reviewCount}+ guests. Leave a quick Google review —
-            it takes 30 seconds and helps more Don Mills locals discover us.
+            Rated {restaurant.rating}★ by {restaurant.reviewCount}+ guests. Leave a quick Google review.
+            It takes 30 seconds and helps more Don Mills locals discover us.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a

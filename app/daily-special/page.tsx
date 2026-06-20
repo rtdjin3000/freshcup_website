@@ -5,7 +5,7 @@ import OrderButtons from "@/components/OrderButtons";
 import { restaurant } from "@/data/restaurant";
 
 export const metadata: Metadata = {
-  title: "Daily Special Drinks — $5 Every Day in Don Mills",
+  title: "Daily Special Drinks: $5 Every Day in Don Mills",
   description:
     "Fresh Cup Daily Specials in North York: a different featured drink every day for $5. Monday to Sunday daily drink deal in Don Mills. Regular size, no toppings.",
   keywords: [

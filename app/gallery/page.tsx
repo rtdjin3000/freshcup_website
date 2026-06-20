@@ -4,7 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import OrderButtons from "@/components/OrderButtons";
 
 export const metadata: Metadata = {
-  title: "Photo Gallery — Fresh Cup Bubble Tea, Juice & Waffles in Don Mills",
+  title: "Photo Gallery: Fresh Cup Bubble Tea, Juice & Waffles in Don Mills",
   description:
     "📸 Fresh Cup photo gallery: bubble tea, milk tea, fruit tea, fresh juices, smoothies, Hong Kong bubble waffles, fluffy pancakes, ice cream & desserts made fresh daily in Peanut Plaza, North York.",
   keywords: [

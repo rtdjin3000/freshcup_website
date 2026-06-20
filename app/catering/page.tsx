@@ -7,7 +7,7 @@ import { restaurant } from "@/data/restaurant";
 import { cateringCategory } from "@/data/menu";
 
 export const metadata: Metadata = {
-  title: "Catering & Events — Fresh Cup Bubble Tea in North York",
+  title: "Catering & Events: Fresh Cup Bubble Tea in North York",
   description:
     "🧋 Fresh Cup catering for birthday parties, corporate events, book launches, and private celebrations. Book our cafe or order custom bubble tea packages for your special event in Don Mills, North York.",
   keywords: [
@@ -123,7 +123,7 @@ const faqs = [
   },
   {
     q: "Can I customize the drink selection for my event?",
-    a: "Absolutely! You can choose any flavours from our menu. Mix and match milk teas, fruit teas, lattes, smoothies, and juices. We'll prepare them exactly as you like — customized sugar and ice levels for each guest.",
+    a: "Absolutely! You can choose any flavours from our menu. Mix and match milk teas, fruit teas, lattes, smoothies, and juices. We'll prepare them exactly as you like, with customized sugar and ice levels for each guest.",
   },
   {
     q: "Do you offer delivery for catering orders?",
@@ -157,7 +157,7 @@ export default function CateringPage() {
         <div className="mb-16">
           <h2 className="section-title text-center mb-4">What can we celebrate with you?</h2>
           <p className="text-center text-brand-greenDark/70 max-w-2xl mx-auto">
-            Whether it's a birthday, book launch, or milestone moment — Fresh Cup has catering packages and venue options for any celebration.
+            Whether it's a birthday, book launch, or milestone moment, Fresh Cup has catering packages and venue options for any celebration.
           </p>
         </div>
 
@@ -191,7 +191,7 @@ export default function CateringPage() {
         <div className="container-x">
           <h2 className="section-title text-center mb-4">Catering Packages</h2>
           <p className="text-center text-brand-greenDark/70 max-w-2xl mx-auto mb-16">
-            From small intimate gatherings to large celebrations — we have a package for your event.
+            From small intimate gatherings to large celebrations, we have a package for your event.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

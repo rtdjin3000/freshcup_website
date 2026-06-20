@@ -36,7 +36,7 @@ export default function AboutPreview() {
           <span className="eyebrow">Our story</span>
           <h2 className="section-title mt-4">Where fresh meets fun</h2>
           <p className="mt-5 text-brand-greenDark/75">
-            Fresh Cup started with a simple idea: bubble tea should taste as good as it looks — and it
+            Fresh Cup started with a simple idea: bubble tea should taste as good as it looks, and it
             should be made with real ingredients. We hand-shake every milk tea, press our juices from
             real fruit, and griddle our bubble waffles to order.
           </p>

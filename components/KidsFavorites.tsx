@@ -42,7 +42,7 @@ export default function KidsFavorites() {
           </div>
           <h2 className="section-title mb-4">What the Cool Kids Love ❤️</h2>
           <p className="text-lg text-brand-greenDark/70 max-w-2xl mx-auto">
-            From fruity smoothies to crispy waffles — here are the drinks and treats that keep Fresh Cup packed with happy faces.
+            From fruity smoothies to crispy waffles, here are the drinks and treats that keep Fresh Cup packed with happy faces.
           </p>
         </div>
 

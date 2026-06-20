@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { restaurant } from "@/data/restaurant";
 
 const baseMessages = [
-  "🧋 Freshly shaken bubble tea — made to order in North York",
+  "🧋 Freshly shaken bubble tea, made to order in North York",
   "🥤 100% fresh-pressed juices · 50+ flavours of boba",
   "🧇 Try our Hong Kong bubble waffles with ice cream",
   "🛵 Order online on Uber Eats, SkipTheDishes, DoorDash & Fantuan",
@@ -18,13 +18,13 @@ export default function AnnouncementBar() {
 
     if (restaurant.worldCup?.active) {
       msgs.unshift(
-        `⚽ World Cup 2026 Watch Party — ${restaurant.worldCup.offer} ${restaurant.worldCup.offerItems} during all game hours!`
+        `⚽ World Cup 2026 Watch Party: ${restaurant.worldCup.offer} ${restaurant.worldCup.offerItems} during all game hours!`
       );
     }
 
     if (restaurant.dailySpecial?.active) {
       msgs.push(
-        `⭐ Daily Special ${restaurant.dailySpecial.priceDisplay} — regular size drinks (no toppings)`
+        `⭐ Daily Special ${restaurant.dailySpecial.priceDisplay}: regular size drinks (no toppings)`
       );
     }
 

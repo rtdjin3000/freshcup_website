@@ -170,7 +170,7 @@ export const drinkCategories: DrinkCategory[] = [
     id: "smoothie",
     name: "Smoothie",
     blurb:
-      "Made with real fruit and veggies — a creamy, wholesome blend in every sip.",
+      "Made with real fruit and veggies, a creamy, wholesome blend in every sip.",
     temp: "Cold",
     sizes: [
       { label: "R", price: 6.99 },
@@ -340,8 +340,8 @@ export const dessertCategory: FoodCategory = {
     { name: "Bubble Waffle (Two)", price: 7.99 },
     { name: "Bubble Waffle + 1 Scoop Ice Cream", price: 7.49 },
     { name: "Bubble Waffle + 2 Scoops Ice Cream", price: 9.49 },
-    { name: "Ice Cream — 1 Scoop", price: 3.99, note: "Vanilla, Cookies & Cream, Chocolate, Rum & Raisin, Strawberry, Cotton Candy" },
-    { name: "Ice Cream — 2 Scoops", price: 5.99 },
+    { name: "Ice Cream (1 Scoop)", price: 3.99, note: "Vanilla, Cookies & Cream, Chocolate, Rum & Raisin, Strawberry, Cotton Candy" },
+    { name: "Ice Cream (2 Scoops)", price: 5.99 },
   ],
 };
 
@@ -349,7 +349,7 @@ export const snacksCategory: FoodCategory = {
   id: "snacks",
   name: "Snacks & All-Day Breakfast",
   blurb:
-    "Savoury bites and hearty breakfast to go with your drink — served all day.",
+    "Savoury bites and hearty breakfast to go with your drink, served all day.",
   image: "/images/Pancake.jpg",
   items: [
     { name: "Pancake", price: 6.99 },
@@ -385,14 +385,14 @@ export const bubbleWafflesCategory: FoodCategory = {
     "Crispy, fluffy Hong Kong bubble waffles in wild flavours. Customise with toppings or enjoy with ice cream & sauce.",
   image: "/images/Bubble Waffle.jpg",
   items: [
-    { name: "Bubble Waffle — Taro", price: 6.49 },
-    { name: "Bubble Waffle — Oreo", price: 6.49 },
-    { name: "Bubble Waffle — Chocolate", price: 6.49 },
-    { name: "Bubble Waffle — Mango", price: 6.49 },
-    { name: "Bubble Waffle — Matcha", price: 6.49 },
-    { name: "Bubble Waffle — Brown Sugar", price: 6.49 },
-    { name: "Bubble Waffle — Strawberry", price: 6.49 },
-    { name: "Bubble Waffle — Original", price: 5.99 },
+    { name: "Bubble Waffle (Taro)", price: 6.49 },
+    { name: "Bubble Waffle (Oreo)", price: 6.49 },
+    { name: "Bubble Waffle (Chocolate)", price: 6.49 },
+    { name: "Bubble Waffle (Mango)", price: 6.49 },
+    { name: "Bubble Waffle (Matcha)", price: 6.49 },
+    { name: "Bubble Waffle (Brown Sugar)", price: 6.49 },
+    { name: "Bubble Waffle (Strawberry)", price: 6.49 },
+    { name: "Bubble Waffle (Original)", price: 5.99 },
     { name: "Bubble Waffle + 1 Scoop Ice Cream", price: 8.99 },
     { name: "Bubble Waffle + 2 Scoops Ice Cream", price: 10.99 },
   ],
@@ -433,12 +433,12 @@ export const cateringCategory: FoodCategory = {
   blurb:
     "Bubble tea catering for birthday parties, book launches, corporate events, and private celebrations. Custom packages available.",
   items: [
-    { name: "Party Package (10 people) — 10 drinks of choice", price: "Starting $59.99", note: "Choose any flavours from our menu. Includes cups, lids, straws." },
-    { name: "Party Package (20 people) — 20 drinks of choice", price: "Starting $109.99" },
-    { name: "Party Package (50 people) — 50 drinks of choice", price: "Starting $249.99" },
-    { name: "Birthday Party Bundle — 15 drinks + 3 dozen macarons + decorations", price: "Starting $129.99" },
-    { name: "Cafe Booking (2 hours) — Private event space rental", price: "Starting $299.99", note: "Includes 10 complimentary drinks. Perfect for birthdays, launches, celebrations." },
-    { name: "Full Cafe Buyout (4 hours) — Exclusive venue rental", price: "Starting $499.99", note: "Entire cafe reserved. Includes 25 complimentary drinks and setup." },
+    { name: "Party Package (10 people): 10 drinks of choice", price: "Starting $59.99", note: "Choose any flavours from our menu. Includes cups, lids, straws." },
+    { name: "Party Package (20 people): 20 drinks of choice", price: "Starting $109.99" },
+    { name: "Party Package (50 people): 50 drinks of choice", price: "Starting $249.99" },
+    { name: "Birthday Party Bundle: 15 drinks + 3 dozen macarons + decorations", price: "Starting $129.99" },
+    { name: "Cafe Booking (2 hours): Private event space rental", price: "Starting $299.99", note: "Includes 10 complimentary drinks. Perfect for birthdays, launches, celebrations." },
+    { name: "Full Cafe Buyout (4 hours): Exclusive venue rental", price: "Starting $499.99", note: "Entire cafe reserved. Includes 25 complimentary drinks and setup." },
     { name: "Custom Catering Package", price: "Quote upon request", note: "Talk to us about your specific event needs. We offer customized packages for any celebration." },
   ],
 };
