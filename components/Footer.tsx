@@ -6,7 +6,7 @@ import OrderButtons from "./OrderButtons";
 
 export default function Footer() {
   return (
-    <footer className="mt-20 bg-brand-greenDark text-brand-cream">
+    <footer className="mt-20 bg-brand-greenDark text-brand-cream pb-[calc(72px+env(safe-area-inset-bottom))] md:pb-0">
       <div className="container-x grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="inline-flex rounded-xl bg-white px-3 py-2">

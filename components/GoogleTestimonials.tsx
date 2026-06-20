@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Star } from "lucide-react";
 import { restaurant } from "@/data/restaurant";
@@ -90,14 +91,12 @@ export default function GoogleTestimonials() {
               className="group overflow-hidden rounded-3xl border border-brand-green/10 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-brand-mint/20">
-                <img
+                <Image
                   src={item.image}
                   alt={item.alt}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  onError={(e) => {
-                    e.currentTarget.src = "/images/hero.jpg";
-                  }}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 

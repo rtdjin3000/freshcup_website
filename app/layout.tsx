@@ -5,6 +5,7 @@ import { restaurant } from "@/data/restaurant";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AnnouncementBar from "@/components/AnnouncementBar";
+import MobileOrderBar from "@/components/MobileOrderBar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -350,6 +351,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <MobileOrderBar />
       </body>
     </html>
   );
