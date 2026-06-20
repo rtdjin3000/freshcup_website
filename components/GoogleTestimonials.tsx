@@ -16,57 +16,57 @@ const testimonials: Testimonial[] = [
     name: "Fresh Cup Guest",
     quote:
       "One of our favorite Don Mills spots. Drinks are fresh, pearls are perfect, and service is always warm.",
-    image: "/images/Customer/customer-05.jpeg",
-    alt: "Fresh Cup customer smiling with dessert cup",
+    image: "/images/testimonials/customer-01.jpg",
+    alt: "Smiling Fresh Cup customer enjoying a fresh drink in our Don Mills cafe",
   },
   {
     name: "Kyle",
     quote:
       "Loved the waffle cup and boba. Chill vibe, friendly team, and great photos every visit.",
-    image: "/images/Customer/customer-01.jpeg",
-    alt: "Fresh Cup customer enjoying a bubble waffle and drink",
+    image: "/images/testimonials/customer-05.jpg",
+    alt: "Happy Fresh Cup customer holding a boba milk tea",
   },
   {
     name: "Don Mills Regular",
     quote:
       "Fresh Cup is our go-to for bubble tea runs. Consistent quality and super photogenic drinks.",
-    image: "/images/Customer/customer-02.jpeg",
-    alt: "Customer holding a Fresh Cup milk tea in the cafe",
+    image: "/images/testimonials/customer-02.jpg",
+    alt: "Regular Fresh Cup customer with a milk tea in North York",
   },
   {
     name: "Couple Visit",
     quote:
       "A cozy date spot with consistently great drinks. We always enjoy the quality and friendly service.",
-    image: "/images/Customer/customer-03.jpeg",
-    alt: "Couple enjoying Fresh Cup drinks together",
+    image: "/images/testimonials/customer-03.jpg",
+    alt: "Couple enjoying bubble tea together at Fresh Cup",
   },
   {
     name: "Weekend Group",
     quote:
       "Great place to hang out with friends. Fast service, awesome drinks, and a cozy vibe.",
-    image: "/images/Customer/customer-04.jpeg",
-    alt: "Group of friends relaxing at Fresh Cup",
+    image: "/images/testimonials/customer-04.jpg",
+    alt: "Group of friends hanging out with drinks at Fresh Cup",
   },
   {
     name: "Waffle Fan",
     quote:
       "The waffle cup was crispy, warm, and so good with toppings. We keep recommending it to friends.",
-    image: "/images/Customer/customer-08.png",
-    alt: "Customer enjoying bubble waffle dessert at Fresh Cup",
+    image: "/images/testimonials/customer-08.jpg",
+    alt: "Fresh Cup customer holding a Hong Kong bubble waffle cup",
   },
   {
     name: "Birthday Crew",
     quote:
       "Perfect place for family celebrations. Kids had an amazing time with treats and colorful drinks.",
-    image: "/images/Customer/customer-07.png",
-    alt: "Customer enjoying waffle cup and drink in-store",
+    image: "/images/testimonials/customer-07.jpg",
+    alt: "Child enjoying a bubble waffle treat at Fresh Cup",
   },
   {
     name: "Storefront Family",
     quote:
       "The kids had an amazing visit and loved the treats. Fresh Cup has become a family favorite.",
-    image: "/images/Customer/customer-06.png",
-    alt: "Kids celebrating in front of Fresh Cup storefront",
+    image: "/images/testimonials/customer-06.jpg",
+    alt: "Kids visiting the Fresh Cup storefront in Don Mills",
   },
 ];
 
