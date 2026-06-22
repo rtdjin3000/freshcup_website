@@ -44,7 +44,7 @@ const faq = [
   },
   {
     q: "What are your hours in Don Mills?",
-    a: "Fresh Cup is open Monday to Friday from 3:00 PM to 9:00 PM, and Saturday to Sunday from 11:00 AM to 9:00 PM.",
+    a: "Fresh Cup is open Monday to Thursday from 12:00 PM to 9:00 PM, Friday from 12:00 PM to 10:00 PM, Saturday from 1:00 PM to 10:00 PM, and Sunday from 1:00 PM to 9:00 PM.",
   },
   {
     q: "Do you have daily specials?",

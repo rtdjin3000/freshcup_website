@@ -73,13 +73,13 @@ export const restaurant = {
   },
   // From Google Business Profile. 24h format hours; null = closed.
   hours: [
-    { day: "Monday", open: "3:00 PM", close: "9:00 PM" },
-    { day: "Tuesday", open: "3:00 PM", close: "9:00 PM" },
-    { day: "Wednesday", open: "3:00 PM", close: "9:00 PM" },
-    { day: "Thursday", open: "3:00 PM", close: "9:00 PM" },
-    { day: "Friday", open: "3:00 PM", close: "9:00 PM" },
-    { day: "Saturday", open: "11:00 AM", close: "9:00 PM" },
-    { day: "Sunday", open: "11:00 AM", close: "9:00 PM" },
+    { day: "Monday", open: "12:00 PM", close: "9:00 PM" },
+    { day: "Tuesday", open: "12:00 PM", close: "9:00 PM" },
+    { day: "Wednesday", open: "12:00 PM", close: "9:00 PM" },
+    { day: "Thursday", open: "12:00 PM", close: "9:00 PM" },
+    { day: "Friday", open: "12:00 PM", close: "10:00 PM" },
+    { day: "Saturday", open: "1:00 PM", close: "10:00 PM" },
+    { day: "Sunday", open: "1:00 PM", close: "9:00 PM" },
   ],
 };
 

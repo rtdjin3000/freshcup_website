@@ -286,7 +286,7 @@ function StructuredData() {
         name: "What are Fresh Cup's hours?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Monday-Friday: 3:00 PM - 9:00 PM, Saturday-Sunday: 11:00 AM - 9:00 PM. Call (647) 518-0951 to confirm.",
+          text: "Monday-Thursday: 12:00 PM - 9:00 PM, Friday: 12:00 PM - 10:00 PM, Saturday: 1:00 PM - 10:00 PM, Sunday: 1:00 PM - 9:00 PM. Call (647) 518-0951 to confirm.",
         },
       },
       {
