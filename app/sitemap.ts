@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/bubble-tea-north-york",
     "/menu",
     "/daily-special",
+    "/catering",
+    "/birthday-parties",
     "/about",
     "/gallery",
     "/contact",

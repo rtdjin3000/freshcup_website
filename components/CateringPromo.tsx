@@ -17,13 +17,21 @@ export default function CateringPromo() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-4 mb-4">
-            <div className="flex items-start gap-4">
+            <Link
+              href="/birthday-parties"
+              className="group -m-2 flex items-start gap-4 rounded-2xl p-2 transition-colors hover:bg-white/60"
+            >
               <Cake className="w-6 h-6 text-brand-green flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-semibold text-brand-greenDark">Birthday Parties</h3>
-                <p className="text-sm text-brand-greenDark/60">Customized drink packages & treats</p>
+                <h3 className="font-semibold text-brand-greenDark group-hover:text-brand-green">
+                  Birthday Parties{" "}
+                  <span className="inline-block transition-transform group-hover:translate-x-0.5">
+                    →
+                  </span>
+                </h3>
+                <p className="text-sm text-brand-greenDark/60">All-inclusive packages from $21.99/guest</p>
               </div>
-            </div>
+            </Link>
 
             <div className="flex items-start gap-4">
               <Users className="w-6 h-6 text-brand-green flex-shrink-0 mt-1" />
@@ -43,8 +51,11 @@ export default function CateringPromo() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/catering" className="btn btn-primary">
-              Explore Catering Packages
+            <Link href="/birthday-parties" className="btn btn-primary">
+              🎂 Birthday Party Packages
+            </Link>
+            <Link href="/catering" className="btn btn-outline">
+              Catering Packages
             </Link>
             <Link href="/contact" className="btn btn-outline">
               Get a Custom Quote

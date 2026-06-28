@@ -186,6 +186,34 @@ export default function CateringPage() {
         </div>
       </section>
 
+      {/* Birthday Parties Highlight */}
+      <section className="container-x pb-4">
+        <Link
+          href="/birthday-parties"
+          className="group relative block overflow-hidden rounded-3xl bg-gradient-to-r from-brand-green to-brand-greenLight p-8 text-white shadow-lg shadow-brand-green/20 transition-all hover:-translate-y-1 hover:shadow-xl md:p-10"
+        >
+          <div className="pointer-events-none absolute -right-10 -top-10 h-44 w-44 rounded-full bg-white/10 blur-2xl" />
+          <div className="relative flex flex-col items-start gap-5 md:flex-row md:items-center md:justify-between">
+            <div>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] ring-1 ring-white/30">
+                <Cake className="h-4 w-4" /> Throwing a birthday?
+              </span>
+              <h3 className="mt-3 font-display text-2xl font-bold md:text-3xl">
+                All-inclusive party packages from $21.99/guest
+              </h3>
+              <p className="mt-2 max-w-xl text-white/90">
+                Book the café and we handle the boba, snacks, egg waffles, setup
+                and cleanup. The Boba Bash or a private buyout, your call.
+              </p>
+            </div>
+            <span className="btn shrink-0 bg-white text-brand-green group-hover:bg-brand-mint">
+              See party packages
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </span>
+          </div>
+        </Link>
+      </section>
+
       {/* Pricing Packages */}
       <section className="bg-brand-mint/20 py-16">
         <div className="container-x">
